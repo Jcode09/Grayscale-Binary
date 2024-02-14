@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Image Editor</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="title">
+    <h1>IMAGE EDITOR</h1>
+</div>
+<div id="options-container">
+  <label for="grayscaleCheckbox">Grayscale</label>
+  <input type="checkbox" id="grayscaleCheckbox">
+  <label for="binaryCheckbox">Binary</label>
+  <input type="checkbox" id="binaryCheckbox">
+</div>
+<label for="fileInput">Choose an image</label>
+<input type="file" id="fileInput">    
+<button id="convertBtn">Convert</button>
+<div id="editor-container">
+  <div id="images-container">
+    <div id="original-container">
+      <h2>Original Image</h2>
+      <img id="original-img" src="#" alt="Original Image">
+    </div>
+    <div id="processed-container">
+      <h2>Edited Image</h2>
+      <img id="processed-img" src="#" alt="Edited Image">
+    </div>
+  </div>
+</div>
+<script src="testing.js"></script>
+</body>
+</html>
+
+
